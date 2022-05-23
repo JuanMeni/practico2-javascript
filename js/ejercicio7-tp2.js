@@ -19,11 +19,5 @@ if(Number(numero) == numero){
             }
             document.write("<br>");
         }
-    }
-    else{
-        alert("No introduzco ningun numero.");
-    }
-}
-else{
-    alert("Numero erroneo");
+    } 
 }
