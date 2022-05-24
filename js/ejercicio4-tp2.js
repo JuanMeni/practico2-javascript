@@ -2,14 +2,14 @@
 
 let suma = 0;
 
-do {
-  var numero = prompt("Introduzca un numero");
+do{
+  let numero = parseInt(prompt("Introduzca un numero"));
+    if(Number.isNaN(numero) == true){
+        alert(numero + "No es un numero.");
+    }
+    else{
+        suma = suma + numero;
+    }
 
-  if (Number(numero) == numero) {
-    numero = Number(numero);
-    suma = suma + numero;
-  } else if (numero != undefined) {
-      alert(numero + " No es un numero");
-  }
-} while (numero != undefined);
-document.write(suma);
+}while(confirm("Quiere ingresar otro numero?")==true);
+document.write("La suma es " + suma);
