@@ -17,3 +17,20 @@ for(let i = 0; i < filas; i ++){
     document.write("</tr>");  
 }
 document.write("</table>");
+
+// otra forma de hacerlo (seria lo ideal ya que esta mas completa)
+// pero se usa style.css para los bordes
+
+// document.write(`<table> <tbody>`);
+// // dibujo las filas y celdas
+// for(let indiceFilas = 0; indiceFilas < filas; indiceFilas ++){
+//     // aca se dibuja las filas
+//     document.write("<tr>")
+//     // ahora dibujo las celdas
+//     for(let indiceColumna = 0; indiceColumna < columnas; indiceColumna ++){
+//         document.write(`<td>${resultado}</td>`);
+//         resultado --;
+//     }
+//     document.write("</tr>")
+// }
+// document.write(`</table></tbody>`);

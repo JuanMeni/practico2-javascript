@@ -9,5 +9,4 @@ Si lo introducido no es un número deberá indicarse con un alert y volver a pre
 Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
 */
 
-
-      
+let dni = prompt("Ingrese su DNI.");
